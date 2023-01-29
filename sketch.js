@@ -12,4 +12,5 @@ function setup() {
     verificaColisao();
     incluiPontos();
     marcaPonto();
+    pontosMaiorQueZero();
   }
