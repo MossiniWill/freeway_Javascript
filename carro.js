@@ -3,10 +3,12 @@
 let yCarros = [40, 96,150];
 let velocidadeCarros = [2.5, 3.7, 4.3]; 
 let xCarros = [600, 600, 600];
+let comprimentoCarro = 50;
+let alturaCarro = 40;
 
 function mostraCarro(){
   for(let i = 0; i < imagemCarros.length; i += 1 ){
-    image(imagemCarros[i], xCarros[i], yCarros[i], 50, 40);}
+    image(imagemCarros[i], xCarros[i], yCarros[i], comprimentoCarro, alturaCarro);}
 }
 
 function movimentaCarro(){
