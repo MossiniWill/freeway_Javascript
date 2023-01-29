@@ -13,7 +13,9 @@ function movimentaAtor(){
   if (keyIsDown(UP_ARROW)){
     yAtor -= 3;
   }if (keyIsDown(DOWN_ARROW)){
-    yAtor += 3;
+    if(podeSeMover()){
+      yAtor += 3;
+    }
   }
 }
 
@@ -50,4 +52,8 @@ function marcaPonto(){
 
 function pontosMaiorQueZero (){
   return meusPontos > 0
+}
+
+function podeSeMover (){
+  return yAtor < 366
 }

@@ -13,4 +13,5 @@ function setup() {
     incluiPontos();
     marcaPonto();
     pontosMaiorQueZero();
+    podeSeMover();
   }
